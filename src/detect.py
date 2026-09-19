@@ -10,6 +10,6 @@ model = YOLO("best.pt")
 source = ""   # image/video path
 
 # Run detection
-results = model.predict(source=source, show=True, conf=0.5, save=True ,)
+results = model.predict(source=source, show=True, conf=0.5, save=True )
 
 print("✅ Detection completed! Results are saved in 'runs/detect' folder.")
